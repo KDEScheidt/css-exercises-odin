@@ -10,7 +10,25 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 32px;
 }
+
+.corpitcho {
+  display: flex;
+  gap: 52px;
+  justify-content: center;
+ }
+
+ .one, .two, .three, .four {
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  justify-content: center;
+  text-align: center;
+ }
+ 
 
 /* do not edit this footer */
 .footer {
